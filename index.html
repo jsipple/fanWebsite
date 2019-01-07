@@ -1,0 +1,72 @@
+<!Doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lindsey Stirling</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body id="main"> 
+        <h1 id="title" class="center">Lindsey Stirling Fan Site</h1>
+        <div id="img-div">
+            <img id="image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/42bdb140744411.57b5b38cdc7b8.jpg" alt="Brave Enough Album Cover" class="center" width="500" length="500">
+        </div>
+            <div id="img-caption" class="center">Brave Enough album cover</div>
+            <br>
+            <div id="quote-display">
+            <!--random quote display when website loaded-->    
+            </div>
+        <button onclick="addquote()">Quote</button>
+        <br>
+        <h2 id="tribute-info">
+            <Strong>Bio</Strong>
+        </h2>
+        <p>
+            Lindsey Stirling is a violinist, dancer, and composer who creates and performs music that combines classical and electronic music.
+        </p>
+        <p>
+            In 2010 Lindsey Stirling appeared on America's Got Talent making it to the quarter finals. After appearing in America's Got Talent she went on to create videos, working with cinematographer Devin Graham. Creating Crystallize in 2012, which helped launch her career and now has over 200million views.
+        </p>
+        <p>
+            Lindsey Stirling is currently on tour playing on her warmer than winter tour. Which features her latest album Warmer Than Winter which is her first holiday album. To get tickets see the below link.
+        </p>    
+        <a id="tribute-link" href="https://www.lindseystirling.com" target="_blank">Lindsey Stirling's website</a>      
+        <hr>
+        <h3>
+            <strong>Favorite songs</strong>
+        </h3>
+
+        <ul>
+            <li>Those Days (feat. Dan + Shay)</li>
+            <li>The Arena</li>
+            <li>Shatter Me</li>
+            <li>Night Vision</li>
+        </ul>
+        <fieldset>
+            <!--don't think I can make this submit button show or store results without some sort of database-->
+            <legend>Which is your favorite album?</legend>
+            <input id="Shatter Me" type="radio" name="favorite" value="Shatter Me">
+                <label for="Shatter Me">Shatter Me</label>
+                <br>
+            <input id="Brave Enough" type="radio" name="favorite" value="Brave Enough">
+                <label for="Brave Enough">Brave Enough</label>
+                <br>
+            <input id="Warmer in the Winter" type="radio" name="favorite" value="Warmer in the Winter">
+                <label for="Warmer in the Winter">Warmer in the Winter</label>
+                <br>
+            <input id="Lindsey Stirling" type="radio" name="favorite" value="Lindsey Stirling">
+                <label for="Lindsey Stirling">Lindsey Stirling</label>
+                <br>
+        </fieldset>
+
+        <input type="submit" name="submit" value="Submit">
+        <h4>
+            <strong>Crystallize:</strong>
+            <hr>
+        </h4>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aHjpOzsQ9YI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <script type="text/javascript" src="./assets/javascript/main.js"></script>
+   
+    </body>
+    </html>
